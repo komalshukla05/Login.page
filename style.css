@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+ }
+ body{
+    background-color:#485461;
+  
+ }
+ .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#f2f2f2;
+    padding: 10px,20px;
+    box-shadow: rgba(0,0,0,0.1)0px,2px,4px,0px;
+    
+ }
+ .search-input{
+    padding: 6px;
+    border-radius: 4px;
+    font-weight: bold;
+    border: none;
+    /* border: 2px solid #874556; */
+ }
+ .search-input:focus{
+  outline-color: #874556;
+ }
+ .search-button{
+   padding:6px 13px;
+   background-color: #874556;
+   color: white;
+   border: none;
+   margin-left: 10px;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: all 3s ease-in-out;
+ 
+ }
+ .search-button:hover{
+    background-color: white;
+    color: #874556;
+    border: 2px solid #874556;
+ }
+ .navbar-nav{
+    display: flex;
+    /* justify-content: space-between; */
+    list-style-type: none;
+ 
+ }
+ .nav-items{
+    margin-left: 20px;
+ }
+ .nav-link{
+    text-decoration: none;
+    color:#28313b;
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 4px;
+    transition: all 3s ease-in-out;
+ 
+ }
+ .nav-link:hover{
+    background-color: #874556;
+    color: white;
+ }
+ .active{
+    background-color: #874556;
+    color:white;
+ }
+ .midal{
+    height: 28vh;
+    width: 22vw;
+    background-color: white;
+    justify-content: center;
+    margin-left: 34rem;
+    margin-top: 17rem;
+    display:fixed;
+    border-radius:8px;
+ }
+ .creat{
+    list-style-type: none;
+    color: black;
+ }
+ .top{
+    margin-top: 20rem;
+    margin-left: 15px; 
+    padding:20px;
+ }
+ 
+ .login{
+    padding:6px 13px;
+    background-color: #874556;
+    color: white;
+    border: none;
+    margin-left: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 3s ease-in-out;
+ }
+ .liti{
+    border-radius:2px;
+    padding: 9px;
+    border-radius: 4px;
+    font-weight: bold;
+    border-color: black;
+ }
